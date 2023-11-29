@@ -16,7 +16,7 @@ img{
 }
 nav{
     background-color: #333;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 a {
@@ -27,6 +27,7 @@ a {
   text-decoration: none;
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
 }
 
 a:hover {
@@ -49,16 +50,36 @@ a:hover {
 }
 
 #mainform {
-    background-color: #FAFFFD;
-    height: 50%;
-    width: 60%;
+    background-color: #798491;
+    height: 30%;
+    width: 30%;
     float: none;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
     margin-right: 1fr;
+    padding-bottom: 20px;
+    opacity: 90%;
 
 }
 
-input {
-    padding-right: 10px;
+
+form{
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-left: 20%;
+    margin-right: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 100%;
+    color: #E7F1F4;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
 }
